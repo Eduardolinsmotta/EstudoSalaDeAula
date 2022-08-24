@@ -7,11 +7,15 @@
 :root{
     --cor-de-fundo: rgb(231, 134, 7);
     --cor-secundaria: rgb(255, 255, 255);
+    --cor-azul: rgb(0,0,255);
+    --cor-preto: rgb(0, 0, 0);
+    --cor-laranja-claro: rgb(255, 235, 205);
 }
+
 
 body{
     font-family: Roboto, sans-serif;
-    width: 760px;
+    width: 1024px;
     margin: auto;
     text-align: justify;
     background-color: var(--cor-de-fundo);
@@ -23,6 +27,24 @@ main{
     padding: 20px;
     float: left;
     width: 85%;
+}
+
+blockquote {
+    padding: 10px;
+    float: left;
+    width: 30%;
+    background-color: rgb(206, 202, 202);
+    border: 10px solid #7a7a7a;
+    display: none
+}
+
+cite{
+    display: block;
+    margin: 15px 20px; 
+}
+.divisaoColuna{
+float: left;
+width: 40%; 
 }
 
 /* main h1{ */
