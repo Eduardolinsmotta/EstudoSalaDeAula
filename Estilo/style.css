@@ -14,9 +14,26 @@
 
 body{
     font-family: Roboto, sans-serif;
-    width: 1024px;
-    margin: auto;
     background-color: var(--cor-de-fundo);
+}
+
+header{
+    background-color: var(--cor-de-fundo);
+    height: 150px;
+    width: 1024px; 
+    margin: auto;
+    position: relative;
+        
+}
+
+header nav{
+    width: 1024px;
+    position: absolute;
+    bottom: 0;
+}
+
+header nav ul li{
+    display: inline-block;
 }
 
 main{
@@ -25,6 +42,8 @@ main{
     /* margin: 20px; */
     padding: 20px;
     position: relative;
+    width: 1024px;
+    margin: auto;
  }
 
 blockquote{
@@ -96,6 +115,11 @@ li{
     */
 }
 
+ul, ol {
+      list-style: none;
+    /*list-style-type: none;*/
+}
+
 
 nav ul li a {
     display: block;
@@ -160,7 +184,7 @@ img{
     text-align: center;
 }
 
-ul{
+aside, nav, ul{
     background-color: var(--cor-azul);
 }
 
