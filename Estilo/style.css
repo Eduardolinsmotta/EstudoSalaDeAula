@@ -20,10 +20,41 @@ body{
 header{
     background-color: var(--cor-de-fundo);
     height: 150px;
-    width: 1024px; 
+    width: 1024px;
     margin: auto;
     position: relative;
-        
+}
+
+header img{
+    width: 80px;
+}
+
+#logo{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 90px;
+}
+
+input[type=text]{
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 38px;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    /* text-indent: 5px; */
+    padding: 0 5px;
+}
+
+#textoEnviamos{
+    position: absolute;
+    left: 275px;
+    top: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--cor-secundaria);
 }
 
 header nav{
@@ -39,11 +70,11 @@ header nav ul li{
 main{
     background-color: var(--cor-secundaria);
     text-align: justify;
+    width: 1024px;
+    margin: auto;
     /* margin: 20px; */
     padding: 20px;
     position: relative;
-    width: 1024px;
-    margin: auto;
  }
 
 blockquote{
@@ -80,6 +111,10 @@ p{
     text-indent: 50px;
 }
 
+ul, ol {
+    list-style: none;
+}
+
 figure{
     width: 19.4%;
     position: absolute;
@@ -114,12 +149,6 @@ li{
     width: 40px; 
     */
 }
-
-ul, ol {
-      list-style: none;
-    /*list-style-type: none;*/
-}
-
 
 nav ul li a {
     display: block;
@@ -186,6 +215,9 @@ img{
 
 aside, nav, ul{
     background-color: var(--cor-azul);
+    /* todos os atributos de lista */
+    /* só o atributo tipo */
+    /* list-style-type: none; */
 }
 
 .icones-sociais li{
@@ -203,7 +235,7 @@ aside, nav, ul{
     display: inline-block;
     color: white;
     text-indent: -9999px;
-    /* font-size: 0; */
+    /* font-size: 0 !important; */
     /* color: rgba(0,0,0,0); */
  }
 
