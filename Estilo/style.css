@@ -36,6 +36,7 @@ header img{
     height: 90px;
 }
 
+
 input[type=text]{
     width: 500px;
     height: 40px;
@@ -55,6 +56,22 @@ input[type=text]{
     font-size: 20px;
     text-align: center;
     color: var(--cor-secundaria);
+}
+
+#carrinho{
+    position: absolute;
+    left: 5px;
+    top: 0;
+    background-color: none;
+    border: none;
+}
+
+#cliente{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    background-color: none;
+    border: none;
 }
 
 header nav{
